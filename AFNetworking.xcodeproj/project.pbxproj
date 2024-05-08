@@ -6,6 +6,21 @@
 	objectVersion = 47;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		D940E5522BEC099D00D04240 /* AFNetworkingUniversal */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = D940E5552BEC099D00D04240 /* Build configuration list for PBXAggregateTarget "AFNetworkingUniversal" */;
+			buildPhases = (
+				D9A192572BEC09C60083EF88 /* ShellScript */,
+			);
+			dependencies = (
+				D940E5572BEC09A500D04240 /* PBXTargetDependency */,
+			);
+			name = AFNetworkingUniversal;
+			productName = AFNetworkingUniversal;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
 		1BF9F9601C87832B00F1F35A /* AFImageResponseSerializerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BF9F95F1C87832B00F1F35A /* AFImageResponseSerializerTests.m */; };
 		1BF9F9611C87843200F1F35A /* AFImageResponseSerializerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BF9F95F1C87832B00F1F35A /* AFImageResponseSerializerTests.m */; };
@@ -194,6 +209,7 @@
 		5F4323DD1BF63CCC003B8749 /* GeoTrust_Global_CA_Root.cer in Resources */ = {isa = PBXBuildFile; fileRef = 5F4323DC1BF63CCC003B8749 /* GeoTrust_Global_CA_Root.cer */; };
 		5F4323DE1BF63CCC003B8749 /* GeoTrust_Global_CA_Root.cer in Resources */ = {isa = PBXBuildFile; fileRef = 5F4323DC1BF63CCC003B8749 /* GeoTrust_Global_CA_Root.cer */; };
 		5F4323DF1BF63CCC003B8749 /* GeoTrust_Global_CA_Root.cer in Resources */ = {isa = PBXBuildFile; fileRef = 5F4323DC1BF63CCC003B8749 /* GeoTrust_Global_CA_Root.cer */; };
+		D9A192592BEC0A830083EF88 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = D9A192582BEC0A830083EF88 /* PrivacyInfo.xcprivacy */; };
 		E2B10D8E233035100004E005 /* Starfield Services Root Certificate Authority - G2.cer in Resources */ = {isa = PBXBuildFile; fileRef = E2B10D8B233035100004E005 /* Starfield Services Root Certificate Authority - G2.cer */; };
 		E2B10D8F233035100004E005 /* Starfield Services Root Certificate Authority - G2.cer in Resources */ = {isa = PBXBuildFile; fileRef = E2B10D8B233035100004E005 /* Starfield Services Root Certificate Authority - G2.cer */; };
 		E2B10D90233035100004E005 /* Starfield Services Root Certificate Authority - G2.cer in Resources */ = {isa = PBXBuildFile; fileRef = E2B10D8B233035100004E005 /* Starfield Services Root Certificate Authority - G2.cer */; };
@@ -229,6 +245,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = 299522761BBF136400859F49;
 			remoteInfo = "AFNetworking OS X";
+		};
+		D940E5562BEC09A500D04240 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 299522301BBF104D00859F49 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 299522381BBF104D00859F49;
+			remoteInfo = "AFNetworking iOS";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -322,6 +345,7 @@
 		5F4323D41BF63CB0003B8749 /* GoogleComServerTrustChainPath1 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = GoogleComServerTrustChainPath1; sourceTree = "<group>"; };
 		5F4323D81BF63CBA003B8749 /* GoogleComServerTrustChainPath2 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = GoogleComServerTrustChainPath2; sourceTree = "<group>"; };
 		5F4323DC1BF63CCC003B8749 /* GeoTrust_Global_CA_Root.cer */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = GeoTrust_Global_CA_Root.cer; sourceTree = "<group>"; };
+		D9A192582BEC0A830083EF88 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = SOURCE_ROOT; };
 		E2B10D8B233035100004E005 /* Starfield Services Root Certificate Authority - G2.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Starfield Services Root Certificate Authority - G2.cer"; sourceTree = "<group>"; };
 		E2B10D8C233035100004E005 /* Amazon Root CA 1.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Amazon Root CA 1.cer"; sourceTree = "<group>"; };
 		E2B10D8D233035100004E005 /* Amazon.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = Amazon.cer; sourceTree = "<group>"; };
@@ -526,6 +550,7 @@
 				439E280C247E16DE004467ED /* LICENSE */,
 				439E2813247E16DE004467ED /* Package.swift */,
 				439E2810247E16DE004467ED /* README.md */,
+				D9A192582BEC0A830083EF88 /* PrivacyInfo.xcprivacy */,
 			);
 			name = "Supporting Files";
 			path = AFNetworking;
@@ -834,6 +859,11 @@
 						CreatedOnToolsVersion = 7.0.1;
 						ProvisioningStyle = Automatic;
 					};
+					D940E5522BEC099D00D04240 = {
+						CreatedOnToolsVersion = 15.0;
+						DevelopmentTeam = P927Y32WJT;
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = 299522331BBF104D00859F49 /* Build configuration list for PBXProject "AFNetworking" */;
@@ -856,6 +886,7 @@
 				298D7C3A1BC2C79500FD3B3E /* AFNetworking iOS Tests */,
 				298D7C491BC2C7B200FD3B3E /* AFNetworking macOS Tests */,
 				2987B0AD1BC408A200179A4C /* AFNetworking tvOS Tests */,
+				D940E5522BEC099D00D04240 /* AFNetworkingUniversal */,
 			);
 		};
 /* End PBXProject section */
@@ -953,6 +984,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9A192592BEC0A830083EF88 /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -971,6 +1003,26 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D9A192572BEC09C60083EF88 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "SCHEME_NAME=\"AFNetworking iOS\"\nFRAMEWORK_NAME=\"AFNetworking\"\nSIMULATOR_ARCHIVE_PATH=\"${BUILD_DIR}/${CONFIGURATION}/${FRAMEWORK_NAME}-iphonesimulator.xcarchive\"\nDEVICE_ARCHIVE_PATH=\"${BUILD_DIR}/${CONFIGURATION}/${FRAMEWORK_NAME}-iphoneos.xcarchive\"\nOUTPUT_DIC=\"${BUILD_DIR}/${CONFIGURATION}-iphoneuniversal\"\n\nxcodebuild archive \\\n  -scheme \"${SCHEME_NAME}\" \\\n  -archivePath ${SIMULATOR_ARCHIVE_PATH} \\\n  -sdk iphonesimulator \\\n  SKIP_INSTALL=NO\n  BUILD_LIBRARIES_FOR_DISTRIBUTION=YES\n\nxcodebuild archive \\\n  -scheme \"${SCHEME_NAME}\" \\\n  -archivePath ${DEVICE_ARCHIVE_PATH} \\\n  -sdk iphoneos \\\n  SKIP_INSTALL=NO\n  BUILD_LIBRARIES_FOR_DISTRIBUTION=YES\n\nrm -rf \"${OUTPUT_DIC}\"\n\nxcodebuild -create-xcframework \\\n  -framework ${SIMULATOR_ARCHIVE_PATH}/Products/Library/Frameworks/${FRAMEWORK_NAME}.framework \\\n  -framework ${DEVICE_ARCHIVE_PATH}/Products/Library/Frameworks/${FRAMEWORK_NAME}.framework \\\n  -output ${OUTPUT_DIC}/${FRAMEWORK_NAME}.xcframework\n  \ncodesign --timestamp -s \"Apple Distribution: IDScan Biometrics Ltd (P927Y32WJT)\" \"${OUTPUT_DIC}/${FRAMEWORK_NAME}.xcframework\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2987B0A01BC408A200179A4C /* Sources */ = {
@@ -1129,6 +1181,11 @@
 			isa = PBXTargetDependency;
 			target = 299522761BBF136400859F49 /* AFNetworking macOS */;
 			targetProxy = 298D7C501BC2C7B200FD3B3E /* PBXContainerItemProxy */;
+		};
+		D940E5572BEC09A500D04240 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 299522381BBF104D00859F49 /* AFNetworking iOS */;
+			targetProxy = D940E5562BEC09A500D04240 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -1468,10 +1525,9 @@
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				BITCODE_GENERATION_MODE = marker;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -1485,7 +1541,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.alamofire.AFNetworking;
 				PRODUCT_NAME = AFNetworking;
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -1495,10 +1550,9 @@
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				BITCODE_GENERATION_MODE = bitcode;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -1512,7 +1566,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.alamofire.AFNetworking;
 				PRODUCT_NAME = AFNetworking;
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
@@ -1623,6 +1676,26 @@
 			};
 			name = Release;
 		};
+		D940E5532BEC099D00D04240 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P927Y32WJT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D940E5542BEC099D00D04240 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P927Y32WJT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1694,6 +1767,15 @@
 			buildConfigurations = (
 				2995227D1BBF136400859F49 /* Debug */,
 				2995227E1BBF136400859F49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D940E5552BEC099D00D04240 /* Build configuration list for PBXAggregateTarget "AFNetworkingUniversal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D940E5532BEC099D00D04240 /* Debug */,
+				D940E5542BEC099D00D04240 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
